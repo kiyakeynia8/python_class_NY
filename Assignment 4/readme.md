@@ -1,7 +1,7 @@
 # Assignment 4
 
 ## calculator
-![calculator](Assignment 4/Capture1.png)
+![calculator](Capture1.png)
 
 ## username and password
 ![user input](Capture2.png)
