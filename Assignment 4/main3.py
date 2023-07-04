@@ -61,9 +61,6 @@ elif op == 12:
     result = abs(number_1)
 
 elif op == 13:
-    result = abs(number_1)
-
-elif op == 14:
     result = round(number_1)
 
 print(result)
