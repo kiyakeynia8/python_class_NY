@@ -1,7 +1,7 @@
 number = int(input("enter your number: "))
 
 if number == 0:
-    print("The number is equal to zero")
+    print("Even")
     exit(0)
 
 if number < 0:
@@ -24,9 +24,10 @@ f = number.count("2")
 g = number.count("4")
 h = number.count("6")
 i = number.count("8")
+j = number.count("0")
 
 odd = a + b + c + d + e
-even = f + g + h + i
+even = f + g + h + i + j
 
 if even > odd:
     print("Even")
