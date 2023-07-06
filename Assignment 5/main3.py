@@ -5,8 +5,7 @@ if number == 0:
     exit(0)
 
 if number < 0:
-    number = str(number)[1:]
-    number = int(number)
+    number = abs(number)
 
 elif len(str(number)) == 1:
     if number % 2 == 0:
@@ -14,29 +13,24 @@ elif len(str(number)) == 1:
     else:
         print("Odd")
     
-# print(number, type(number))
-e = 0
-o = 0
-n = number
+number = str(number)
 
-def sum(n):
-    global e
-    global o
-    a = number - n
-    if a == 0:
-        ...
-    else:
-        if a % 2 == 0:
-            e += 1
-        else:
-            o += 1
-    return 0 if n == 0 else (n % 10 + sum(n // 10))
+a = number.count("1")
+b = number.count("3")
+c = number.count("5")
+d = number.count("7")
+e = number.count("9")
+f = number.count("2")
+g = number.count("4")
+h = number.count("6")
+i = number.count("8")
 
-print(sum(n))
+odd = a + b + c + d + e
+even = f + g + h + i
 
-if e > o:
+if even > odd:
     print("Even")
-elif o > e:
+elif odd > even:
     print("Odd")
 else:
     print("equal")
