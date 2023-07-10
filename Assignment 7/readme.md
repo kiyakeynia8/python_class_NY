@@ -1,7 +1,8 @@
 # Assignment 7
 
 ## ATM
-file:///home/kiyakeynia/pylearn/norozzahe%20class/Assignment%207/Screenshot%20from%202023-07-11%2001-21-06.png
+![Screenshot from 2023-07-11 01-21-06](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/abd9d4c3-b0de-4490-bfb1-e018736212d8)
+
 ![Screenshot from 2023-07-11 01-22-26](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/fbfddcc0-c66d-491c-841b-4db37626fc5b)
 
 ## calculator
@@ -11,10 +12,12 @@ file:///home/kiyakeynia/pylearn/norozzahe%20class/Assignment%207/Screenshot%20fr
 ![Screenshot from 2023-07-11 01-25-28](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/f9c24304-ea02-4317-a031-7a423ef41055)
 
 ## number list
-file:///home/kiyakeynia/pylearn/norozzahe%20class/Assignment%207/Screenshot%20from%202023-07-11%2001-26-40.png
+![Screenshot from 2023-07-11 01-26-40](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/9d456614-c57e-4380-ba55-558f34d6abbb)
+
 
 ## palindrome
-file:///home/kiyakeynia/pylearn/norozzahe%20class/Assignment%207/Screenshot%20from%202023-07-11%2001-27-54.png
+![Screenshot from 2023-07-11 01-27-54](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/424c7c27-0e7b-46fa-816e-3e63dcdd67df)
+
 
 ## Thermometer
-file:///home/kiyakeynia/pylearn/norozzahe%20class/Assignment%207/Screenshot%20from%202023-07-11%2001-28-50.png
+![Screenshot from 2023-07-11 01-28-50](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/9e5189c0-f72b-4ced-8151-efee10f50183)
