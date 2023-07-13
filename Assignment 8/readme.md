@@ -1,6 +1,6 @@
 # Assignment 8
 ## dice
-![Screenshot from 2023-07-12 16-28-17](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/42e0e62d-111a-4507-a1bb-f9a32bc34ca9)
+![Screenshot from 2023-07-13 09-59-59](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/2fba82e2-318b-47ec-ac0a-a4a694a4b5a8)
 
 ## numbers game(2 player)
 ![Screenshot from 2023-07-12 16-29-35](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/1aaca7bf-ca13-43b0-b7ef-f230f551687b)
