@@ -18,7 +18,7 @@ while True:
         s = int(input("up = 1 \n down = 2 \n"))
         
         if s == 1:
-            small_number = number
+            small_number = number + 1
         
         elif s == 2:
-            bigـnumber = number
+            bigـnumber = number - 1
