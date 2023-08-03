@@ -1,10 +1,11 @@
-## <img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/> Time
+# <img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/> Time
+## <img height="40" src="https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif"/> Time
 ## sum
 ![Capture1](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/9b69dc34-9eef-4d56-89eb-352dab6318b5)
 ## sub
 ![Capture2](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/da7f6d6b-6695-4ffb-bea4-0bd3d3a5cc1c)
 
-## <img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/> Deduction
+# <img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/> Deduction
 ## sum
 ![Capture3](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/461e8879-02f4-4d72-8003-ce9523710eb5)
 ## sub
