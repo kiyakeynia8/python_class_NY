@@ -1,5 +1,4 @@
 # <img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/> Time
-## <img height="40" src="https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif"/> Time
 ## sum
 ![Capture1](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/9b69dc34-9eef-4d56-89eb-352dab6318b5)
 ## sub
