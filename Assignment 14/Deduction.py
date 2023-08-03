@@ -21,7 +21,7 @@ class Deduction:
         return r_sorat , r_makhraj
     
     def div(self):
-        r_sorat, r_makhraj = self.dict1["sorat"] * self.dict2["majhraj"], self.dict1["makhraj"] * self.dict2["sorat"]
+        r_sorat, r_makhraj = self.dict1["sorat"] * self.dict2["makhraj"], self.dict1["makhraj"] * self.dict2["sorat"]
 
         return r_sorat , r_makhraj
 
