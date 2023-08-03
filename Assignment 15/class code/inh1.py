@@ -14,4 +14,3 @@ class Employee(Person):
 
 a = Employee("kiya", 5)
 a.welcome()
-
