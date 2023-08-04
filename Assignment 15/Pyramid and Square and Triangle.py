@@ -5,27 +5,30 @@ class Triangle:
         self.s1 = s1
         self.s2 = s2
 
-    def area(self):
+    def t_area(self):
         return (0.5 * self.b) * self.h
 
-    def environment(self):
+    def t_environment(self):
         return self.s1 + self.s2 + self.b
     
 class Square:
     def __init__(self, z):
         self.z = z
 
-    def area(self):
+    def s_area(self):
         return self.z ** 2
 
-    def environment(self):
+    def s_environment(self):
         return 4 * self.z
 
-class Pyramid:
-    def __init__(self, t, a, e):
+class Pyramid(Square):
+    def __init__(self, t, e):
+        super.__init__(t)
         self.t = t
-        self.a = a
         self.e = e
     
-    def Volume(self):
-        return self.e * self.a * (self.t / 3)
+    def p_volume(self):
+        return self.e * self.s_area * (self.t / 3)
+    
+    def p_area(self):
+        return ((self.s_environment() * self.e) / 2) + self.s_area()
