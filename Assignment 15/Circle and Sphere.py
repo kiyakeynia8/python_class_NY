@@ -18,5 +18,6 @@ class Sphere(Circle):
         return (self.radius ** 2) * math.pi * 4
 
 circle = Circle(3)
-print(circle.Area())
+print("circle area:", circle.Area(), "circle Perimeter:", circle.Perimeter())
 sphere = Sphere(3)
+print("sphere area:", sphere.Area(), "sphere Perimeter:", sphere.Perimeter())

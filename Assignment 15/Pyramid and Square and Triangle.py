@@ -23,12 +23,19 @@ class Square:
 
 class Pyramid(Square):
     def __init__(self, t, e):
-        super.__init__(t)
+        super().__init__(t)
         self.t = t
         self.e = e
     
     def p_volume(self):
-        return self.e * self.s_area * (self.t / 3)
+        return self.e * self.s_area() * (self.t / 3)
     
     def p_area(self):
         return ((self.s_environment() * self.e) / 2) + self.s_area()
+
+triangle = Triangle(3,4,5,6)
+print("triangle area:", triangle.t_area(), "triangle environment:", triangle.t_environment())
+square = Square(5)
+print("square area:", square.s_area(), "square environment:", square.s_environment())
+pyramid = Pyramid(5,6)
+print("pyramid area:", pyramid.p_area(), "pyramid volume:", pyramid.p_volume())
