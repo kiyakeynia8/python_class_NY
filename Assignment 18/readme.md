@@ -1,6 +1,6 @@
 # Hello arcade
 
-## ___
+# ___
 
 ## sunny forest
 ![sunny forest](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/0f590f34-ded8-44da-afcd-0c41ab2fde7b)
