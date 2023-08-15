@@ -46,4 +46,16 @@ def get_current_state(mat):
         if mat[i][3] == mat[i+1][3]:
             return "Game Not Ever"
 
-    return "lose"
+    return "Lose"
+
+def move_left():
+    pass
+
+def move_right():
+    pass
+
+def move_up():
+    pass
+
+def move_down():
+    pass
