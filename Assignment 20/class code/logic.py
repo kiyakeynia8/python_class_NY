@@ -48,14 +48,14 @@ def get_current_state(mat):
 
     return "Lose"
 
-def move_left():
+def move_left(mat):
     pass
 
-def move_right():
+def move_right(mat):
     pass
 
-def move_up():
+def move_up(mat):
     pass
 
-def move_down():
+def move_down(mat):
     pass
