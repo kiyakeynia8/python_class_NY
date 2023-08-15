@@ -31,31 +31,99 @@ def get_current_state(mat):
     for i in range(4):
         for j in range(4):
             if mat[i][j] == 0:
-                return "Game Not Ever"
+                return "Game Not Over"
 
     for i in range(3):
         for j in range(3):
             if (mat[i][j] == mat[i+1][j]) or (mat[i][j] == mat[i][j+1]):
-                return "Game Not Ever"
+                return "Game Not Over"
 
     for i in range(3):
         if mat[3][i] == mat[3][i+1]:
-            return "Game Not Ever"
+            return "Game Not Over"
 
     for i in range(3):
         if mat[i][3] == mat[i+1][3]:
-            return "Game Not Ever"
+            return "Game Not Over"
 
     return "Lose"
 
+def compress(mat):
+    flag = False
+    new_mat = []
+
+    for i in range(4):
+        new_mat.append([0]*4)
+
+    for i in range(4):
+        p = 0
+        for j in range(4):
+            if mat[i][j] != 0:
+                new_mat[i][p] = mat[i][j]
+                if j != p:
+                    flag = True
+
+                p+=1
+
+    return new_mat, flag
+
+def merge(mat):
+    flag = False
+
+    for i in range(4):
+        for j in range(3):
+            if mat[i][j] == mat[i][j+1] and mat[i][j] != 0:
+                mat[i][j] = mat[i][j] * 2
+                mat[i][j+1] = 0
+                flag = True
+    
+    return mat, flag 
+
+def reverse(mat):
+    new_mat = []
+    for i in range(4):
+        new_mat.append([])
+        for j in range(4):
+            new_mat[i].append(mat[i][3-j])
+
+    return new_mat
+
+def transpose(mat):
+    new_mat = []
+
+    for i in range(4):
+        new_mat.append([])
+        for j in range(4):
+            new_mat[i].append(mat[j][i])
+
+    return new_mat
+
 def move_left(mat):
-    pass
+    new_grid, flag_1 = compress(mat)
+    new_grid, flag_2 = merge(mat)
+    flag = flag_1 or flag_2
+
+    new_grid, _ = compress(mat)
+
+    return new_grid, flag
 
 def move_right(mat):
-    pass
+    new_grid = reverse(mat)
+    new_grid, flag = move_left(mat)
+    new_grid = reverse(mat)
+
+    return new_grid, flag
 
 def move_up(mat):
-    pass
+    new_grid = transpose(mat)
+    new_grid, flag = move_left(mat)
+    new_grid = transpose(mat)
+
+    return new_grid, flag
 
 def move_down(mat):
-    pass
+    new_grid = transpose(mat)
+    new_grid, flag = move_right(mat)
+    new_grid = reverse(mat)
+
+    return new_grid, flag
