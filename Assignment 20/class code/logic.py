@@ -22,5 +22,18 @@ def add_new_2(mat):
 
     return mat
 
-def get_current_state():
-    pass
+def get_current_state(mat):
+    for i in range(4):
+        for j in range(4):
+            if mat[i][j] == 2048:
+                return "WON"
+    
+    for i in range(4):
+        for j in range(4):
+            if mat[i][j] == 0:
+                return "Game Not Ever"
+
+    for i in range(4):
+        for j in range(4):
+            if (mat[i][j] == mat[i+1][j]) or (mat[i][j] == mat[i][j+1]):
+                return "Game Not Ever"
