@@ -39,8 +39,8 @@ pip install arcade
   <a href="https://github.com/kiyakeynia8/python_class_NY/blob/main/Assignment%2018/2D%20Space%20Shooter.py">Click to see the code</a>
 
 ## Snake
-![snake](images/snake.png)
-![s g_o](images/snake_G_O.PNG)
+![snake](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/ed1ae522-a856-4f34-ac7f-db1a5b81cde2)
+![snake_G_O](https://github.com/kiyakeynia8/python_class_NY/assets/118113533/7975313d-cf16-4069-8754-9dbd7711ba54)
 ### To run this code:
 ```
 pip install arcade
