@@ -55,7 +55,8 @@ class Spaceship(arcade.Sprite):
                 
     def fire(self):
         new_bullet = Bullet(self, self.ba, LASER_SPEED)
-        self.Bullet_list.append(new_bullet)
+        if len(self.Bullet_list) <= 2: 
+            self.Bullet_list.append(new_bullet)
 
 class Jon(arcade.Sprite):
     def __init__(self,x,y):
@@ -142,11 +143,15 @@ class MyGame(arcade.Window):
                 if arcade.check_for_collision(self.player_2, bullet):
                     self.player_1.Bullet_list.remove(bullet)
                     self.player_2.jons.remove(self.player_2.jons[0])
+                if bullet.center_y > 600:
+                    self.player_1.Bullet_list.remove(bullet)
 
             for bullet in self.player_2.Bullet_list:
                 if arcade.check_for_collision(self.player_1, bullet):
                     self.player_2.Bullet_list.remove(bullet)
                     self.player_1.jons.remove(self.player_1.jons[0])
+                if bullet.center_y < 0:
+                    self.player_2.Bullet_list.remove(bullet)
 
         if len(self.player_1.jons) == 0:
             self.s = "w_2"
