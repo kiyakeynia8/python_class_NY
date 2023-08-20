@@ -37,3 +37,13 @@ pip install arcade
 ```
 <h4 align="center">
   <a href="https://github.com/kiyakeynia8/python_class_NY/blob/main/Assignment%2018/2D%20Space%20Shooter.py">Click to see the code</a>
+
+## Snake
+![snake](images/snake.png)
+![s g_o](images/snake_G_O.PNG)
+### To run this code:
+```
+pip install arcade
+```
+<h4 align="center">
+  <a href="https://github.com/kiyakeynia8/python_class_NY/blob/main/Assignment%2018/snake/main.py">Click to see the code</a>
