@@ -152,7 +152,7 @@ def rou():
 app = QApplication([])
 loader = QUiLoader()
 
-main_window = loader.load("calculator_ui.ui")
+main_window = loader.load("calculator/calculator_ui.ui")
 s_s()
 main_window.show()
 
