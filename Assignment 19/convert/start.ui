@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>481</width>
+    <height>178</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 179, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="Fahrenheit_to_Celsius">
+        <property name="text">
+         <string>Fahrenheit to Celsius</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QRadioButton" name="Fahrenheit_to_Kelvin">
+        <property name="text">
+         <string>Fahrenheit to Kelvin</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QRadioButton" name="Celsius_to_Kelvin">
+        <property name="text">
+         <string>Celsius to Kelvin</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QRadioButton" name="Kelvin_to_Celsius">
+        <property name="text">
+         <string>Kelvin to Celsius</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="Foot_to_Inch">
+        <property name="text">
+         <string>Foot to Inch</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QRadioButton" name="Foot_to_Centimeter">
+        <property name="text">
+         <string>Foot to Centimeter</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QRadioButton" name="Foot_to_Meter">
+        <property name="text">
+         <string>Foot to Meter</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QRadioButton" name="Foot_to_Yard">
+        <property name="text">
+         <string>Foot to Yard</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="Euro_to_USD">
+        <property name="text">
+         <string>Euro to USD</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QRadioButton" name="Euro_to_Cad">
+        <property name="text">
+         <string>Euro to Cad</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QRadioButton" name="Euro_to_Tnd">
+        <property name="text">
+         <string>Euro to Tnd</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QRadioButton" name="Euro_to_Cnh">
+        <property name="text">
+         <string>Euro to Cnh</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="4">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MV Boli&quot;;
+background-color: rgb(34, 125, 122);
+border-radius: 20px;
+padding: 4px;</string>
+        </property>
+        <property name="text">
+         <string>welcome to my app :)  What operation do you want to do?</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>481</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
