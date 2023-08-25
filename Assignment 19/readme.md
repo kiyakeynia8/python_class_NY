@@ -25,4 +25,4 @@ pip install pyside2
 pip install pyside2
 ```
 <h4 align="tic tac toe">
-  <a href="https://github.com/kiyakeynia8/python_class_NY/tree/main/Assignment%2019/tic%20tac%20toe">Click to see the code</a>
+  <a href="https://github.com/kiyakeynia8/python_class_NY/blob/main/Assignment%2019/tic%20tac%20toe/tic_tac_toe_v2.py">Click to see the code</a>
