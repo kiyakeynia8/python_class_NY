@@ -13,6 +13,10 @@ widgets = [[main_window.btn_0_0,main_window.btn_0_1,main_window.btn_0_2,main_win
             [main_window.btn_1_0,main_window.btn_1_1,main_window.btn_1_2,main_window.btn_1_3],
             [main_window.btn_2_0,main_window.btn_2_1,main_window.btn_2_2,main_window.btn_2_3],
             [main_window.btn_3_0,main_window.btn_3_1,main_window.btn_3_2,main_window.btn_3_3]]
+main_window.btn_up.setShortcut(app.tr("w"))
+main_window.btn_down.setShortcut(app.tr("s"))
+main_window.btn_right.setShortcut(app.tr("d"))
+main_window.btn_left.setShortcut(app.tr("a"))
 
 main_window.show()
 

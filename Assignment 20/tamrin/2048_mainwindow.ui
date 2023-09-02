@@ -91,6 +91,9 @@
         <property name="text">
          <string>up</string>
         </property>
+        <property name="shortcut">
+         <string notr="true" comment="w"/>
+        </property>
        </widget>
       </item>
      </layout>
